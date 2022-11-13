@@ -1,5 +1,5 @@
 meta.name = 'More Coffins'
-meta.version = '0.0.2'
+meta.version = '0.0.3'
 meta.description = 'add coffins to 7-30, 7-70'
 meta.author = 'fienestar'
 meta.online_safe = true
@@ -11,7 +11,7 @@ end
 last_coffin = {0,0}
 
 set_callback(function(ctx)
-    if state.level == 30 or state.level == 70 then
+    if state.level == 29 or state.level == 69 then
         -- the number of orb always zero in POST_ROOM_GENERATION
         -- #get_entities_by_type(ENT_TYPE.ITEM_FLOATING_ORB)
 
